@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/davide/Programming/bigDataProject/venv"
+set -gx VIRTUAL_ENV "/home/davide/Documenti/Università/Lab_Big_Data/Lab_big_data_DAVIDE_PIU/APP_bigDataProject/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
