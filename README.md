@@ -9,7 +9,7 @@ The solution implemented includes a set of stages and technologies:
 <ol>
 <li>Pre-processing with PySpark, the result of this stage is a csv dataset (final_movie_reviews.csv);</li>
 <li>Building an off-line classifier (Naive Bayes) with Scikit-learn;</li>
-<li>Creation of a Flask web app that allows users to use the classifier for new predictions </li>
+<li>Creation of a Flask web app that allows users to use the classifier for new predictions;</li>
 <li>Web app Dockerization.</li>
 </ol>
 
