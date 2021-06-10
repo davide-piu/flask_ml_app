@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}
+Lab Big Data
+{% endblock title %}
+{% block content %}
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">   
+		<div>
+            <br>
+            <br>
+
+			<h2 class="display-5">Web App per classificazione recensioni film</h2>
+            <p>
+                Web app realizzata con Flask. L'applicazione è stata realizzata utilizzando un dataset processato con 
+                pyspark. Il dataset è stato processato all'interno di Pyspark (Databricks)
+                </p>
+
+		</div>
+                
+        </div>
+    
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+	<form action="{{ url_for('predict')}}" method="POST">
+        <div class="col-sm">
+            <label for="exampleFormControlTextarea1" class="form-label">Inserisci qui la recensione del film!</label>
+            <textarea name ="message" class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Scrivi la recensione"></textarea>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary" value="predict">Invia</button>
+        </div>		
+	</form>
+	
+</div>
+
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+		
+
+	
+	
+
