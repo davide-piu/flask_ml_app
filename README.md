@@ -2,7 +2,7 @@
 Flask Machine Learning app for text classification.
 
 
-This app is the result of a Big Data exam. The purpose of the exame was to build an app that solves a Big data related problem. The dataset used for the project is this <a href="https://www.kaggle.com/ryati131457/web-data-amazon-movie-reviews-processed">link</a>. It contains reviews of films and Tv series from the Amazon Prime Video's platform. In summary, I've processed the dataset, built an off-line classifier, and created an app with Flask. Inside Flask I've included also Flassgger,   in this way is possible to expose the model as an Api.
+The purpose was to build an app that solves a Big data related problem. The dataset used for the project is this <a href="https://www.kaggle.com/ryati131457/web-data-amazon-movie-reviews-processed">link</a>. It contains reviews from the Amazon Prime Video's platform. In summary, I've processed the dataset, built an off-line classifier, and created an app with Flask. Inside Flask I've included also Flassgger,   in this way is possible to expose the model as an Api.
 
 The solution implemented includes a set of stages and technologies:
 <br>
